@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shop</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        header{
+            background-color: #1F2937;
+            max-height: 500px;
+            margin: 0;
+        }
+        nav{
+           float: right;
+           margin-right: 100px;
+        }
+        a{
+            text-decoration: none;
+            color:#F9FAF8;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        ul li{
+            list-style-type: none;
+            display: inline-block;
+            margin: 20px;
+        }
+        a:hover{
+            color: #1F2937;
+            background-color: #F9FAF8;
+            padding: 0 5px;
+            border-radius: 3px;
+        }
+        .logo{
+            margin-left: 40px;
+            
+        }
+        div{
+            margin-left: 50px;
+            margin-right: 100px;
+            margin-top: 70px;   
+            color:#F9FAF8;
+            line-height: 2;
+        }
+        .parent{
+            display: flex
+        }
+        .coffe{
+         border-radius: 10px;
+        }
+        button{
+            padding: 10px 15px;
+            margin-top: 10px;
+            background-color: #3882F6;
+            border-radius: 10px;
+            color:#F9FAF8;
+            font-size: 20px;
+            border: #3882F6;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .section1{
+            height: 400px;
+            display: flex;
+            background-color: whitesmoke;
+        }
+        .main{
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            color: #1F2937;
+            font-size: 20px;
+        }
+        img{
+            border-radius: 15px;
+        }
+        h2{
+            text-align: center;
+            background-color: whitesmoke;
+            padding-top: 20px;
+            word-spacing: 5px;
+        }
+        .section2{
+            background-color: whitesmoke;
+            height: 69px;  
+            text-align: center;
+            
+        }
+        .section3{
+            background-color: #3882F6;
+            color:#F9FAF8;
+            height: 150px;
+            width: 60%;
+            margin: 30px auto;
+            text-align: center;
+            border-radius: 20px;
+            padding-top: 10px;
+        }
+        .sign{
+            padding: 10px 15px;
+            margin-top: 10px;
+            background-color: #3882F6;
+            border-radius: 10px;
+            color:#F9FAF8;
+            font-size: 20px;
+            border: 3px solid #F9FAF8;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        footer{
+            height: 100px;
+            background-color: #1F2937;
+            color: #F9FAF8;
+            font-weight: 600;
+            text-align: center;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.PNG" alt="logo" width="250px">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="parent">
+        <div class="child">
+         <h1>Babi's Coffee Shop </h1>
+         <p>Life without Coffee is something without something. <br>
+            Sorry I haven't had any coffee yet. <br>
+            Don't miss babi'is Coffee</p>
+             <button>Order Now</button>    
+        </div>
+        <div class="child">
+            <img class="coffe" src="images/coffee-171653_1280.jpg" alt="" width="350px" height="250px">
+        </div>
+    </div>
+    </header>
+    <h2>Our Best Seller!</h2>
+    <main>
+        <section class="section1">
+        <div class="main">
+            <img src="images/cappuccino.jpg" width="150" height="150">
+            <p>cappuccino</p>
+            <button>Order Now</button>
+        </div>
+        <div class="main">
+            <img src="images/iced-coffee-6876063_640.jpg" width="150"
+            height="150">
+            <p>Iced Coffee</p>
+            <button>Order Now</button>
+        </div>
+        <div class="main">
+            <img src="images/latte.jpg" width="150" height="150">
+           <p>Latte</p>
+           <button>Order Now</button>
+        </div>
+        <div class="main">
+            <img src="images/espresso.jpg" width="150" height="150">
+            <p>Espresso</p>
+            <button>Order Now</button>
+        </div>
+    </section>
+    <section class="section2">
+          <p>
+            This is the best coffee in town I have ever had, The quality, Customer care, awesome enviroment! <br>
+            This is the only place i confidently invite my colleagues to!
+          </p>
+          <h3>
+            .Hakeem
+          </h3>
+    </section>
+    <section class="section3">
+     <h3>Call to action! It's time!</h3>
+     <p>Sign up for our product by clicking right over there!</p>
+     <button class="sign">Sign up</button>
+    </section>
+    </main>
+    <footer>
+        <p>Copyright &nbsp; &copy; &nbsp; Babi's Coffee Shop 2024</p>
+    </footer>
+</body>
+</html>
